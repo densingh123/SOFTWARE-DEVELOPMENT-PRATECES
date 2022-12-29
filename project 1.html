@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div style="background-color:light green;">
+    <div class="container">
+        <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+        <i><h2 id="titleDescription">Beautiful Commercial Photography</h1></i>
+        <a onclick="myFunction()" id="viewWork">View Work</a>
+    </div>
+    <div id="images">
+    <div class="image">
+        <img src="https://www.ppa.com/assets/images/ppmag_articles/header_20181-the-great-orion-nebula.jpg"width="1200",height="1300" alt="pic1" id="backGroundImage">
+    </div>
+    <div class="image">
+        <h1><i id="ourWork"> CHINA GATE AND TAJ MAHAL IS MOST IMPORTANT TOURIST PLACE IN WORLD</i></h1>
+        <img src="https://www.planetware.com/wpimages/2020/08/top-attractions-in-the-world-china-great-wall.jpg"width="1200",height="1300" >
+    </div>
+    <div class="image">
+        <img src="https://media.gettyimages.com/id/539269887/pt/foto/taj-mahal-nascer-do-sol.jpg?s=612x612&w=gi&k=20&c=9dOBBQOw8uS5QpJwx-qDh7l5H9guS5udJ2xiqoQMRlc=" width="1200",height="1300" alt="pic3" id="secondImage">
+        <p id="firstImageName"> <h1>EFFIL TOWER</h1> </p>
+    </div>
+    <div class="image">
+        <img src="https://loeildelaphotographie.com/wp-content/uploads/2020/04/eiffel-tower-by-jeffrey-milstein-s-copyright.jpg" width="1200",height="1300" alt="pic4" id="thirdImage"width="1300">
+        <p id="secondImageName">THIS IS ONE OF THE MOST IMPOTTANT TOURIST PLACE IN WORLD</p>
+    </div>
+    <div class="image">
+        <img src="https://images.unsplash.com/photo-1579518906791-a1e24ec47a34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZWlmZmVsJTIwdG93ZXJ8ZW58MHx8MHx8&w=1000&q=80"width="1300",height="1300">
+        <p id="thirdImageName">Abstract Photography</p>
+    </div>
+    </div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
